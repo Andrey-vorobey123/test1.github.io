@@ -1,0 +1,222 @@
+p {
+    font-family: 'CMUSerifRoman';
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.block{
+    display: block;
+}
+
+.flex{
+    display: flex;
+}
+
+.FirstBlock{
+    justify-content: center;
+    display: flex;
+}
+
+.all{
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 1);
+}
+.fix{
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 0px;
+}
+.content{
+    margin-top: 120px;
+}
+
+.FirstBlockCentering{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 100%;
+}
+
+.FirstBlockCenter{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.Left{
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    height: 35px;
+    justify-content: flex-start;
+}
+.IconM{
+    margin-top: 2px;
+}
+.Sign{
+    color: rgba(2, 184, 117, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.Sign:hover{
+    color: #173313;
+}
+.Right{
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+}
+.GetStarted{
+    margin-left: 16px;
+    display: block;
+}
+.GSstyle{
+    color: rgba(2, 184, 117, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgba(2, 184, 117, 1);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.GSstyle:hover{
+    color: #173313;
+}
+
+.border_top{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.SecondBlock{
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+.Icon{
+    margin-right: 40px;
+    margin-left: -1px;
+}
+.Menu{
+    display: flex;
+    align-items: flex-start;
+}
+.MenuPiece{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.MenuPiece:hover{
+    color: black;
+}
+.ForFirstMenuPiece{
+    margin-right: 15px;
+}
+.ForFollowingMenuPiece{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.img{
+    width: 100%;
+
+}
+.MainLine{
+    justify-content: center;
+}
+
+.w{
+    width: 680px;
+}
+.ArtHeader{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family: 'CMUSerifRoman';
+}
+.margin{
+    margin-top: 32pt;
+}
+.ArticleUrl{
+    display: flex;
+    justify-content: space-between;
+}
+.LeftUrl{
+    display: flex;
+    align-items: center;
+}
+.MyBridge{
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.Upper{
+    margin-bottom: 2px;
+    align-items: center;
+    display: flex;
+
+}
+.Mybridge1{
+    text-decoration: none;
+    color: black;
+}
+.Mybridge1:hover{
+    text-decoration: underline;
+}
+.Follow{
+    text-decoration: none;
+    color: #454743;
+    margin-left: 5px;
+    border-radius: 3px;
+    padding: 0px 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #454743;
+}
+.Follow:hover{
+    color: black;
+}
+
+.column{
+    flex-direction: column;
+}
+.MinRead{
+    color: gray;
+    text-decoration: none;
+}
+.Date{
+    color: gray;
+    text-decoration: none;
+}
+.Date:hover{
+    text-decoration: underline;
+}
+.Icons{
+    display: flex;
+    align-items: flex-end;
+}
+.Icons1{
+    display: flex;
+    align-items: center;
+}
+.imgg{
+    padding-right: 10px;
+}
+.TXT{
+    margin-top: 2em;
+    font-size: 23px;
+    font-family: 'CMUSerifRoman';
+    line-height: 1.58;
+    font-weight: 500;
+
+}
+.href1{
+    color: black;
+    
+}
